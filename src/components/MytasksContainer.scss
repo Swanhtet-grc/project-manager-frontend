@@ -1,0 +1,21 @@
+.mytasks-container{
+    display: flex;
+    flex-direction: row;
+    .linkboard-comp{
+        align-self: start;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .tasks-table{
+        align-self: end;
+        flex-grow: 4;
+        margin: 2%;
+    }
+    .task-button{
+        align-self: center;
+        margin: 2%;
+        padding: 8px;
+        box-shadow: 2px 3px#2b2823;
+        width: 14%;
+    }
+}

@@ -1,0 +1,9 @@
+.report-container{
+    display: flex;
+    flex-direction: row;
+    .linkboard-comp{
+        align-self: start;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
